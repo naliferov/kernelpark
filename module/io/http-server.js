@@ -1,8 +1,8 @@
 import server from 'node:http'
 
-const HttpServerFactory = () => {
+export const HttpServerFactory = () => {
     const server = server.createServer({ requestTimeout: 15000 })
-    const port = process.env.PORT || 3000
+    const port = 3000
 
     return {
         start() {

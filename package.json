@@ -1,0 +1,7 @@
+{
+    "name": "kernel",
+	"version": "1.0.0",
+	"description": "kernel",
+	"license": "MIT",
+    "main": "index.js"
+}

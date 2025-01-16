@@ -1,7 +1,7 @@
 {
-    "name": "kernel",
+    "name": "kernelpark",
 	"version": "1.0.0",
-	"description": "kernel",
+	"description": "Kernel park",
 	"license": "MIT",
     "main": "index.js"
 }

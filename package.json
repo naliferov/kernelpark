@@ -1,7 +1,11 @@
 {
     "name": "kernelpark",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Kernel park",
+	"type": "module",
 	"license": "MIT",
-    "main": "index.js"
+    "main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	}
 }

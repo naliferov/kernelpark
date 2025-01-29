@@ -6,15 +6,10 @@ stream.start()
 
 
 
-import chalk from 'chalk';
-
-console.log(chalk.bold('##### Это большой заголовок #####'));
-console.log(chalk.underline('## Это средний заголовок ##'));
-console.log('Это обычный текст');
-
-
-
-
+//import chalk from 'chalk';
+//console.log(chalk.bold('##### Это большой заголовок #####'));
+//console.log(chalk.underline('## Это средний заголовок ##'));
+//console.log('Это обычный текст');
 
 
 //detect is we need to run function and send it event

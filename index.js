@@ -1,8 +1,8 @@
 import { stream } from './module/stream.js'
 
 stream.start()
-//stream.p({ msg: "oh helloo!" })
-//stream.p({ msg: "oh second msg!" })
+stream.p({ msg: "oh helloo!" })
+stream.p({ msg: "oh second msg!" })
 
 
 

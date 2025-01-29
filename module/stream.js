@@ -2,6 +2,7 @@
 
 export const stream = {
     events: new Set,
+    slicers: new Map,
 
     p(event) {
         //const id = ulid()

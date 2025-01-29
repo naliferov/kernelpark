@@ -11,7 +11,7 @@ export const stream = {
 
         let isProcessing = false
 
-        const processing = async () => {
+        const processingFunc = async () => {
             isProcessing = true
 
             const values = this.parts.values()
@@ -34,7 +34,7 @@ export const stream = {
                 return
             }
             console.log('run processing events:', new Date)
-            processing()
+            processingFunc()
         }, 2000)
     },
 }
